@@ -1,7 +1,7 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
+Plug 'terryma/vim-multiple-cursors'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'roxma/nvim-completion-manager'
@@ -14,6 +14,8 @@ Plug 'alvan/vim-closetag'
 Plug 'scrooloose/nerdcommenter'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'jiangmiao/auto-pairs'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " theme settings
@@ -76,9 +78,6 @@ set expandtabnnoremap <leader>c :source $MYVIMRC<cr>
 " always shows statusbar
 set laststatus=2
 
-" status bar more efficient
-set statusline=%f\ %=L:%l/%L\ %c\ (%p%%)
-
 " reload automaticaly files edited outside vim
 set autoread
 
@@ -131,3 +130,10 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l"
+
+" --------------------------------------
+" vim-airline
+" --------------------------------------
+
+let g:airline#extensions#branch#enabled = 1
+let g:airline_powerline_fonts = 0

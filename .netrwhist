@@ -1,9 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/fabio/bricks-editor'
-let g:netrw_dirhist_2='/home/fabio'
-let g:netrw_dirhist_3='/home'
-let g:netrw_dirhist_4='/home/fabio'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/fabio/bricks-editor/src/ui'
+let g:netrw_dirhist_2='/home/fabio/bricks-editor/src/ui/helpers'
+let g:netrw_dirhist_3='/home/fabio/bricks-editor'
+let g:netrw_dirhist_4='/home/fabio/bricks-editor/src'
 let g:netrw_dirhist_5='/home/fabio/bricks-editor'
 let g:netrw_dirhist_6='/home/fabio/bricks-editor/src'
 let g:netrw_dirhist_7='/home/fabio/bricks-editor'
+let g:netrw_dirhist_8='/home/fabio/bricks-editor/src'
